@@ -64,8 +64,8 @@ We can tune various parameters to make the plane twist, tilt, 360 rotations or s
 The way this is done is, by casting the 3D points to a 4D homogeneous surface and converting it back while plotting the points for the take-off simulation.
 The transformation matrix is obtained from the equation below:
 
-![Input](https://github.com/prajakta0111/Computer_Vision/blob/master/lab3/formula.png)
+![Input](https://github.com/prajakta0111/Computer_Vision/blob/master/lab4/formula.PNG)
 
 Checkout the [movie.mp4](https://github.com/prajakta0111/Computer_Vision/blob/master/lab4/movie.mp4) file to view the takeoff.
 
-![Input](https://github.com/prajakta0111/Computer_Vision/blob/master/lab3/plane.png)
+![Input](https://github.com/prajakta0111/Computer_Vision/blob/master/lab4/plane.png)
