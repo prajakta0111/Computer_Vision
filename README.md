@@ -15,7 +15,7 @@ In this lab, we had to perform different convolutions on the input image from sc
 ### Sharpening:
 ![Sharpening](https://github.com/prajakta0111/Computer_Vision/blob/master/lab1/Sharpening.jpg)
 ### Derivative of Gaussian
-![Gaussian_derivative](https://github.com/prajakta0111/Computer_Vision/blob/master/lab1/Gaussian_derivative.jpg)
+![Gaussian_derivative](https://github.com/prajakta0111/Computer_Vision/blob/master/lab1/Gaussian_derivate.jpg)
 
 ## Lab 2
 
@@ -56,3 +56,16 @@ In this lab we implement corner detection using Harris detector. The intermediat
 ![Input](https://github.com/prajakta0111/Computer_Vision/blob/master/lab3/Iy2.png)
 ### Output (Corners marked with red crosses)
 ![Input](https://github.com/prajakta0111/Computer_Vision/blob/master/lab3/output.png)
+
+## Lab 4
+
+In this lab, we have a bunch of 3D points corresponding to a runway. We cast this on a 2D surface and simulate flight takeoff.
+We can tune various parameters to make the plane twist, tilt, 360 rotations or show the rear view.
+The way this is done is, by casting the 3D points to a 4D homogeneous surface and converting it back while plotting the points for the take-off simulation.
+The transformation matrix is obtained from the equation below:
+
+![Input](https://github.com/prajakta0111/Computer_Vision/blob/master/lab3/formula.png)
+
+Checkout the [movie.mp4](https://github.com/prajakta0111/Computer_Vision/blob/master/lab4/movie.mp4) file to view the takeoff.
+
+![Input](https://github.com/prajakta0111/Computer_Vision/blob/master/lab3/plane.png)
